@@ -1,0 +1,109 @@
+/* Estilos gerais */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-image: url("background/praçadopescador.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.card-container {
+    background: rgba(0, 0, 0, 0.7); /* Fundo preto transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 350px;
+    width: 100%;
+}
+.profile-img-card {
+    width: 120px; /* Reduza a largura da imagem */
+    height: auto; /* Permita que a altura seja ajustada automaticamente */
+    margin: 0 auto 20px; /* Centralize a imagem e adicione um espaço inferior */
+    display: block;
+    border-radius: 50%;
+}
+
+
+.profile-name-card {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0 20px;
+    color: #fff; /* Cor do texto Intranet */
+}
+
+.form-signin input[type=text],
+.form-signin input[type=password] {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    height: 36px; /* Altura dos campos */
+    font-size: 14px; /* Tamanho da fonte */
+    padding: 8px; /* Espaçamento interno */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco transparente */
+    box-sizing: border-box; /* Incluir padding e borda na largura total */
+}
+
+.form-signin input[type=text]:focus,
+.form-signin input[type=password]:focus {
+    border-color: #11a448;
+    outline: none;
+    box-shadow: 0 0 5px rgba(17, 164, 72, 0.5);
+}
+
+
+.checkbox {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.btn-signin {
+    background-color: #11a448 !important;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+    color: #fff;
+    width: 100%;
+}
+
+.btn-signin:hover,
+.btn-signin:active,
+.btn-signin:focus {
+    background-color: #0c6121;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer img {
+    width: 130px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 50%;
+}

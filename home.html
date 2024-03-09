@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IADVH</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+     <!-- Barra de navegação -->
+     <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <div class="menu-toggle float-left">
+          <i class="fas fa-bars"></i>
+          <ul class="menu-items bg-dark">
+            <li><a href="institucional.html">Institucional</a></li>
+            <li><a href="documentos.html">Documentos</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="escala.html">Escala de Almoço</a></li>
+            <div class="footer-sidebar bg - bg-dark fs-text-sm fs-bg-white fs-md-padding hidden-version" data-sidebar-version="versao">
+              <p class="fs-no-margin fs-ellipsis" title="telefone">
+                📞 (98) 3304 - 6504
+              </p> 
+              <p class="fs-no-margin fs-ellipsis fs-text-center" title="cnpj">
+                📄 21.843.341/0001-07
+              </p>
+              <p class="fs-no-margin fs-ellipsis" title="Versão">
+                🔄 Versão - 1.0                     
+              </p> 
+              <img src="imagens/1.png" alt="iadvhtec" style="display: block; max-width: 60%; height: auto; margin: 10px auto 0;" >           
+            </div>
+          </ul>
+        </div>
+        <div class="logo">
+          <a href="home.html">
+          <img src="imagens/2.png" alt="Logo da Empresa IADVH">
+        </a>
+        </div>
+        <div class="header-right float-right">
+          <div class="notification-icon">
+           <a href=""></a> <i class="fas fa-bell"></i>
+          </div>
+          <div class="settings-icon">
+            <i class="fas fa-cog"></i>
+          </div>
+          <div class="profile-icon">
+            <a href="index.html" id="logoutButton"><i class="fas fa-user"></i></a>
+          </div>          
+        </div>
+      </div>
+    </nav>
+    
+    <div class="content" style="margin-top: 70px;">
+      <!-- Conteúdo da página -->
+    
+    <!-- Seção de banner -->
+    <section id="banner">
+      <div class="w3-content w3-display-container" style="max-width:2200px">
+        <img class="mySlides" src="imagens/INTRANET.png" style="width:100%" alt="Banner Intranet">
+        <img class="mySlides" src="imagens/Banner 2.png" style="width:100%" alt="Banner 2">
+        <img class="mySlides" src="imagens/ISO.png" style="width:100%" alt="ISO">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+      </div>
+    </section>
+    <div class="section-container">
+      <section class="section avisos">
+        <h2 class="section-title">Avisos</h2>
+        <div class="section-content">
+          <h2>Coordenação de Departamento Pessoal</h2>
+          <p>⚠️ Boa noite! </p>
+          <p>Prezados, passando para lembrá-los que a aprovação do gestor da tratativa do ponto é até hoje. Por favor, visualizem seus espelhos de ponto se já está tudo ok.</p>
+        </div>
+      </section>
+    
+      <section class="section atalhos">
+        <h2 class="section-title">Atalhos e Links</h2>
+        <div class="section-content">
+          <p>Aqui estão os atalhos para acessar as principais ferramentas do sistema.</p>
+          <div class="icon-links">
+              <a href="https://www.iadvh.org.br/portaldofuncionario" target="_blank">
+                <i class="fas fa-home"></i>
+                <span>Portal do Funcionario</span>
+              </a>
+              <a href="https://institutode137168.rm.cloudtotvs.com.br/FrameHTML/web/app/RH/PortalMeuRH/#/login" target="_blank">
+                <i class="fas fa-mobile-alt"></i>
+                <span>App Meu RH</span>
+              </a>
+              <a href="https://www.aberturasolicitacoes.com" target="_blank">
+                <i class="fas fa-clipboard-list"></i>
+                <span>Abertura de Solicitações</span>
+              </a>
+              <a href="https://webmail.iadvh.org.br/" target="_blank">
+                <i class="fas fa-envelope"></i>
+                <span>Webmail</span>
+              </a>
+              <a href="http://iadvh-sup/glpi/front/reservation.php?reservationitems_id=1" target="_blank">
+                <i class="fas fa-users"></i> 
+                <span>Sala de Reunião</span>
+              </a>
+              <a href="https://www.dimepkairos.com.br/Dimep/Account/LogOn?ReturnUrl=%2F">
+                <i class="fas fa-clock"></i>
+                <span>Kairos</span>
+              </a>
+              <a href="https://institutode138988.fluig.cloudtotvs.com.br/portal/p/2/home">
+                <i class="fas fa-id-badge"></i>
+                <span>Fluig</span>
+              </a>
+              <a href="agenda.html">
+                <i class="fas fa-address-book"></i>
+                <span>Agenda</span>
+              </a>
+            </div>
+          </div>
+        </section>
+    </div>
+
+    <section class="section aniversariante-section">
+        <h2>Aniversariantes do Mês 🥳🎂 </h2>
+        <p></p>
+        <div class="row">
+          <div class="column aniversariante-card">
+            <div class="card">
+              <img src="imagens/BIANCA LOPES.png" alt="Bianca Lopes" style="width:100%">
+              <div class="container">
+                <h2>Bianca Lopes</h2>
+                <p class="title">Supervisora Contábil</p>
+                <p>Parabéns pelo seu aniversáriooo!</p>
+                <button class="button" onclick="handleClick(1)">
+                  <i class="fas fa-birthday-cake"></i>
+                  <span id="count1">0</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="column aniversariante-card">
+            <div class="card">
+              <img src="imagens/BIANCA LOPES.png" alt="Jane" style="width:100%">
+              <div class="container">
+                <h2>Jane</h2>
+                <p class="title">Cargo da Jane</p>
+                <p>Parabéns pelo seu aniversáriooo!</p>
+                <button class="button" onclick="handleClick(2)">
+                  <i class="fas fa-birthday-cake"></i>
+                  <span id="count2">0</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="column aniversariante-card">
+            <div class="card">
+              <img src="imagens/CARLA CARVALHO.png" alt="Carla Carvalho" style="width:100%">
+              <div class="container">
+                <h2>Carla Carvalho</h2>
+                <p class="title">Assistente Administrativo</p>
+                <p>Parabéns pelo seu aniversáriooo!</p>
+                <button class="button" onclick="handleClick(3)">
+                  <i class="fas fa-birthday-cake"></i>
+                  <span id="count3">0</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="column aniversariante-card">
+            <div class="card">
+              <img src="imagens/BIANCA LOPES.png" alt="John" style="width:100%">
+              <div class="container">
+                <h2>John</h2>
+                <p class="title">Cargo do John</p>
+                <p>Parabéns pelo seu aniversáriooo!</p>
+                <button class="button" onclick="handleClick(4)">
+                  <i class="fas fa-birthday-cake"></i>
+                  <span id="count4">0</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section email-ramais">
+       
+      </section>
+  </div>   
+  
+    <footer class="footer">
+        <p>&copy; Todos os direitos reservados - Intranet IADVH 2024</p>
+        <div>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://open.spotify.com/episode/455K3RnyWggy33YCCOvLTc?si=Im9OX-oeQHejZ1xwC0h4NQ" target="_blank"><i class="fab fa-spotify"></i></a>
+          <a href="https://www.example.com/" target="_blank"><i class="fas fa-globe"></i></a>
+        </div>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSGFpoO/ufreqqF6MVu4JdG7PhIxZlW8sSJv43gkdSHlua9DmM/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX5" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
